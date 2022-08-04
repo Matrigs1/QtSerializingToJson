@@ -15,7 +15,7 @@ public:
     QString name();
     void setName(const QString& value);
     QMap<QString, QString> map();
-    void setMap(QMap<QString, QString> newMap);
+    void setMap(QMap<QString, QString> newMap); //recebe um novo mapa pra setar
 
     //para acessar partes privadas da classe | não é membro
     friend QDataStream& operator<<(QDataStream &stream, const Test &t)
