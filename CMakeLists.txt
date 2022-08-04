@@ -16,6 +16,10 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(SerializingToJson
   main.cpp
+  test.h
+  test.cpp
+  converter.h
+  converter.cpp
 )
 target_link_libraries(SerializingToJson Qt${QT_VERSION_MAJOR}::Core)
 
